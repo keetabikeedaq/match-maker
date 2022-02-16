@@ -1,0 +1,304 @@
+body {
+  background-image: linear-gradient(pink, rgb(36, 36, 179));
+}
+
+/* h1 {
+  margin-left: 380;
+  color: linear-gradient(pink, rgb(36, 36, 179));
+} */
+h1 {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  margin-left: 380;
+  background: linear-gradient(orange, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: black;
+}
+
+div.image {
+  background-color: rgb(16, 16, 41);
+  margin-left: 300;
+  margin-bottom: 50;
+  margin-top: 30;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  border: solid black;
+}
+@media only screen and (max-width: 600px) {
+  div.image {
+    margin-left: 30;
+    width: 400;
+  }
+  h1 {
+    margin-left: 150;
+  }
+}
+div.imageOne {
+  background-color: rgb(16, 16, 41);
+  margin-left: 300;
+  margin-bottom: 50;
+  /* margin-top: 50; */
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  border: solid black;
+}
+@media only screen and (max-width: 600px) {
+  div.imageOne {
+    margin-left: 30;
+    width: 400;
+  }
+}
+div.imageTwo {
+  background-color: rgb(16, 16, 41);
+  margin-left: 300;
+  margin-bottom: 50;
+  /* margin-top: 50; */
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  border: solid black;
+}
+@media only screen and (max-width: 600px) {
+  div.imageTwo {
+    margin-left: 30;
+    width: 400;
+  }
+}
+div.imageThree {
+  background-color: rgb(16, 16, 41);
+  margin-left: 300;
+  margin-bottom: 50;
+  /* margin-top: 50; */
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  border: solid black;
+}
+@media only screen and (max-width: 600px) {
+  div.imageThree {
+    margin-left: 30;
+    width: 400;
+  }
+}
+div.imageFour {
+  background-color: rgb(16, 16, 41);
+  margin-left: 300;
+  /* margin-top: 50; */
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  border: solid black;
+}
+@media only screen and (max-width: 600px) {
+  div.imageFour {
+    margin-left: 30;
+    width: 400;
+  }
+}
+
+img {
+  margin-left: 130;
+  margin-top: 50;
+  border-radius: 5px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 50;
+  color: white;
+}
+
+div.optionOne,
+div.optionTwo,
+div.optionThree,
+div.optionFour,
+div.optionFive,
+div.optionSix,
+div.optionSeven,
+div.optionEight,
+div.optionNine,
+div.optionTen,
+div.optionEleven,
+div.optionTwelve,
+div.optionThirteen,
+div.optionFourteen,
+div.optionFifteen {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionOne:hover,
+div.optionTwo:hover,
+div.optionThree:hover,
+div.optionFour:hover,
+div.optionFive:hover,
+div.optionSix:hover,
+div.optionSeven:hover,
+div.optionEight:hover,
+div.optionNine:hover,
+div.optionTen:hover,
+div.optionEleven:hover,
+div.optionTwelve:hover,
+div.optionThirteen:hover,
+div.optionFourteen:hover,
+div.optionFifteen:hover {
+  background-color: aqua;
+}
+button {
+  margin-left: 10;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+/* div.optionTwo {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+div.optionThree {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionFour {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionFive {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionSix {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionSeven {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionEight {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionNine {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionTen {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionEleven {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionTwelve {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionThirteen {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionFourteen {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+}
+div.optionFifteen {
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10;
+  margin-left: 5;
+  width: 380;
+  height: 40px;
+  opacity: 0.8;
+  font-weight: bold;
+} */
