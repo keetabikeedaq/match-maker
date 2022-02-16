@@ -136,7 +136,7 @@ div.optionFifteen {
   opacity: 0.8;
   font-weight: bold;
 }
-div.optionOne:hover,
+/* div.optionOne:hover,
 div.optionTwo:hover,
 div.optionThree:hover,
 div.optionFour:hover,
@@ -152,7 +152,7 @@ div.optionThirteen:hover,
 div.optionFourteen:hover,
 div.optionFifteen:hover {
   background-color: aqua;
-}
+} */
 button {
   margin-left: 10;
   font-weight: bold;
@@ -162,143 +162,4 @@ button:hover {
   background-color: aqua;
 }
 
-/* div.optionTwo {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  opacity: 0.8;
-  font-weight: bold;
-}
 
-div.optionThree {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionFour {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionFive {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionSix {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionSeven {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionEight {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionNine {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionTen {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionEleven {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionTwelve {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionThirteen {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionFourteen {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-}
-div.optionFifteen {
-  background-color: grey;
-  border-radius: 5px;
-  margin-bottom: 10;
-  margin-left: 5;
-  width: 380;
-  height: 40px;
-  opacity: 0.8;
-  font-weight: bold;
-} */
